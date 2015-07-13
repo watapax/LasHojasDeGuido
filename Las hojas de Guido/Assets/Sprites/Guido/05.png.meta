@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: 1a006d96fb4bc45428fda3ba533ac24a
+timeCreated: 1435962637
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 05-guidoLluvia
+    21300002: 05-GuidoCola
+    21300004: 05-GuidoLagrima
+    21300006: 05-GuidoEsperando
+    21300008: 05-GuidoPena2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 05-guidoLluvia
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 551
+        width: 628
+        height: 470
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 05-GuidoCola
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 843
+        width: 319
+        height: 101
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 05-GuidoLagrima
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 738
+        width: 14
+        height: 67
+      alignment: 9
+      pivot: {x: .256866455, y: .998460472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 05-GuidoEsperando
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 504
+        height: 500
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 05-GuidoPena2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 5
+        width: 399
+        height: 720
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

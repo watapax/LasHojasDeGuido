@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: a53f6f6a4b6531e47b055cdfd920572d
+timeCreated: 1435955911
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hojas2_0
+    21300002: hojas2_1
+    21300004: hojas2_2
+    21300006: hojas2_3
+    21300008: hojas2_4
+    21300010: hojas2_5
+    21300012: hojas2_6
+    21300014: hojas2_7
+    21300016: hojas2_8
+    21300018: hojas2_9
+    21300020: hojas2_10
+    21300022: hojas2_11
+    21300024: hojas2_12
+    21300026: hojas2_13
+    21300028: hojas2_14
+    21300030: hojas2_15
+    21300032: hojas2_16
+    21300034: hojas2_17
+    21300036: hojas2_18
+    21300038: hojas2_19
+    21300040: hojas2_20
+    21300042: hojas2_21
+    21300044: hojas2_22
+    21300046: hojas2_23
+    21300048: hojas2_24
+    21300050: hojas2_25
+    21300052: hojas2_26
+    21300054: hojas2_27
+    21300056: hojaNueva-01
+    21300058: hojaNueva-02
+    21300060: hojaNueva-03
+    21300062: hojaNueva-04
+    21300064: hojaNueva-05
+    21300066: hojaNueva-06
+    21300068: hojaNueva-07
+    21300070: hojaNueva-Destello
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: hojas2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 858
+        width: 180
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 945
+        width: 166
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 923
+        width: 175
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_3
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 932
+        width: 174
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 243
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 741
+        width: 152
+        height: 178
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 788
+        width: 89
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_7
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 851
+        width: 189
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_8
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 969
+        width: 141
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_9
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 822
+        width: 185
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_10
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 928
+        width: 142
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_11
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 857
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_12
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 734
+        width: 233
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_13
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 643
+        width: 218
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_14
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 639
+        width: 129
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_15
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 743
+        width: 107
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_16
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 710
+        width: 146
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_17
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 620
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_18
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 620
+        width: 80
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_19
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 632
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 576
+        width: 200
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 454
+        width: 133
+        height: 271
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 486
+        width: 150
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_23
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 494
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_24
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 416
+        width: 224
+        height: 157
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_25
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 500
+        width: 134
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_26
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 398
+        width: 235
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas2_27
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 529
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojaNueva-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 345
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojaNueva-02
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 242
+        width: 232
+        height: 154
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojaNueva-03
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 385
+        width: 239
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojaNueva-04
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 225
+        width: 231
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojaNueva-05
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 68
+        width: 218
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojaNueva-06
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 82
+        width: 264
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojaNueva-07
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 73
+        width: 201
+        height: 165
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojaNueva-Destello
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 331
+        height: 258
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

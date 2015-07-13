@@ -1,0 +1,88 @@
+fileFormatVersion: 2
+guid: f27ac7e34c1795d4cb743c4c743fe566
+timeCreated: 1435957339
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 03_guido
+    21300002: 03_cabeza
+    21300004: 03_mano
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 03_guido
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 603
+        height: 1018
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 03_cabeza
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 469
+        width: 413
+        height: 555
+      alignment: 9
+      pivot: {x: .0280587338, y: .751259744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 03_mano
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 319
+        width: 265
+        height: 146
+      alignment: 9
+      pivot: {x: .0275954921, y: .261217713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

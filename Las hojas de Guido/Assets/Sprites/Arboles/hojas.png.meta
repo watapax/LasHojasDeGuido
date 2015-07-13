@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 8596f3504482291479cea5d12f0efdc1
+timeCreated: 1435959224
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hojas_0
+    21300002: hojas_1
+    21300004: hojas_2
+    21300006: hojas_3
+    21300008: hojas_4
+    21300010: hojas_5
+    21300012: hojas_6
+    21300014: hojas_7
+    21300016: hojas_8
+    21300018: hojas_9
+    21300020: hojas_10
+    21300022: hojas_11
+    21300024: hojas_12
+    21300026: hojas_13
+    21300028: hojas_14
+    21300030: hojas_15
+    21300032: hojas_16
+    21300034: hojas_17
+    21300036: hojas_18
+    21300038: hojas_19
+    21300040: guido-pena1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: hojas_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 240
+        width: 120
+        height: 220
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 259
+        width: 127
+        height: 240
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_2
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 340
+        width: 150
+        height: 209
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_3
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 329
+        width: 137
+        height: 233
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_4
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 226
+        width: 188
+        height: 248
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_5
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 439
+        width: 137
+        height: 246
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_6
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 281
+        width: 79
+        height: 102
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 158
+        width: 124
+        height: 171
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 75
+        height: 110
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 192
+        width: 108
+        height: 132
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_10
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 228
+        width: 139
+        height: 204
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 125
+        height: 213
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 141
+        height: 249
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 167
+        width: 81
+        height: 110
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_14
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2
+        width: 128
+        height: 186
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_15
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 0
+        width: 126
+        height: 185
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_16
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 4
+        width: 147
+        height: 222
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2
+        width: 117
+        height: 156
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_18
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 88
+        height: 144
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hojas_19
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1
+        width: 88
+        height: 144
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guido-pena1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 566
+        width: 492
+        height: 458
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
