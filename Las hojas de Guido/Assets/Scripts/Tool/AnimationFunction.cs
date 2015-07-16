@@ -35,4 +35,11 @@ public class AnimationFunction : MonoBehaviour {
 	}
 
 
+	// DESACTIVAR GAMEOBJECT
+	public void DesactivarObject()
+	{
+		gameObject.SetActive(false);
+	}
+
+
 }

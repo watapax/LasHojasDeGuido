@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 54cfb7a7d10f34549a517ee856646f45
-timeCreated: 1435941917
+timeCreated: 1436897143
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,10 @@ TextureImporter:
     21300002: 02-rama
     21300004: 02-dino1
     21300006: 02-guido1
+    21300008: 02-hoja1
+    21300010: 02_hoja2
+    21300012: 02_hoja3
+    21300014: 02_hoja4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +34,7 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -3
+  textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
@@ -92,6 +96,46 @@ TextureImporter:
         height: 599
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02-hoja1
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 603
+        width: 58
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_hoja2
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 433
+        width: 58
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_hoja3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 266
+        width: 58
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02_hoja4
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 77
+        width: 58
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
