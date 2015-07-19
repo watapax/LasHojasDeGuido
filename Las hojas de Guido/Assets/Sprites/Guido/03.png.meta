@@ -1,12 +1,12 @@
 fileFormatVersion: 2
 guid: f27ac7e34c1795d4cb743c4c743fe566
-timeCreated: 1435957339
+timeCreated: 1437170573
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 03_guido
-    21300002: 03_cabeza
-    21300004: 03_mano
+    21300000: 03_guido-cuerpo
+    21300002: 03_cabeza-Come
+    21300004: 03_cabeza-NoCome
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,7 +29,7 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -3
+  textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
@@ -52,33 +52,33 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: 03_guido
+    - name: 03_guido-cuerpo
       rect:
         serializedVersion: 2
         x: 0
         y: 3
-        width: 603
-        height: 1018
+        width: 607
+        height: 756
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: 03_cabeza
+    - name: 03_cabeza-Come
       rect:
         serializedVersion: 2
-        x: 611
-        y: 469
-        width: 413
-        height: 555
+        x: 583
+        y: 650
+        width: 441
+        height: 374
       alignment: 9
       pivot: {x: .0280587338, y: .751259744}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: 03_mano
+    - name: 03_cabeza-NoCome
       rect:
         serializedVersion: 2
-        x: 731
-        y: 319
-        width: 265
-        height: 146
+        x: 706
+        y: 24
+        width: 318
+        height: 429
       alignment: 9
       pivot: {x: .0275954921, y: .261217713}
       border: {x: 0, y: 0, z: 0, w: 0}

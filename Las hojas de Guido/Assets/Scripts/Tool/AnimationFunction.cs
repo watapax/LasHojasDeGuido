@@ -1,6 +1,6 @@
-﻿/*
- * Clase solo para funciones de animaciones
-*/
+﻿/* ---------------------------------------- 
+ * Clase solo para funciones de animaciones 
+ * ---------------------------------------- */
 
 using UnityEngine;
 using System.Collections;
@@ -39,6 +39,13 @@ public class AnimationFunction : MonoBehaviour {
 	public void DesactivarObject()
 	{
 		gameObject.SetActive(false);
+	}
+
+
+	// DESACTIVAR ANIAMTOR
+	public void DesactivarAnimator()
+	{
+		anim.enabled = false;
 	}
 
 
