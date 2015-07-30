@@ -74,6 +74,13 @@ public class GameManager : MonoBehaviour {
 	}
 
 
+	void Update()
+	{
+		// Salir de la app si el user apreta el Back button en android
+		if(Input.GetKeyDown(KeyCode.Escape))Application.Quit();
+
+	}
+
 
 
 

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6c567b00116cade4db09e9c0073961f7
-timeCreated: 1435958608
+timeCreated: 1438214936
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -9,6 +9,9 @@ TextureImporter:
     21300004: 04-guido0
     21300006: 04-Guido3
     21300008: 04-Interrogacion
+    21300010: 04_pataAtrasGuido
+    21300012: 04_mano2Guido
+    21300014: 04_manoGuido
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -31,7 +34,7 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -3
+  textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
@@ -67,10 +70,10 @@ TextureImporter:
     - name: 04-Guido2
       rect:
         serializedVersion: 2
-        x: 492
-        y: 526
-        width: 528
-        height: 418
+        x: 514
+        y: 545
+        width: 506
+        height: 399
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -97,12 +100,42 @@ TextureImporter:
     - name: 04-Interrogacion
       rect:
         serializedVersion: 2
-        x: 515
-        y: 956
+        x: 530
+        y: 958
         width: 36
         height: 58
       alignment: 9
       pivot: {x: .603839457, y: .145515174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 04_pataAtrasGuido
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 487
+        width: 92
+        height: 209
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 04_mano2Guido
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 704
+        width: 37
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 04_manoGuido
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 833
+        width: 69
+        height: 172
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

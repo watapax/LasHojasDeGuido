@@ -46,6 +46,14 @@ public class AnimationFunction : MonoBehaviour {
 	public void DesactivarAnimator()
 	{
 		anim.enabled = false;
+
+	}
+
+
+
+	void OnDisable()
+	{
+		anim.enabled = true;
 	}
 
 

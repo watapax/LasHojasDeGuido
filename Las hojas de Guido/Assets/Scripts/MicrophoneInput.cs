@@ -18,7 +18,7 @@ public class MicrophoneInput : MonoBehaviour {
 		audioSource = GetComponent<AudioSource>();
 	}
 
-	void Start()
+	void OnEnable()
 	{
 		audioSource.clip = Microphone.Start(null, true, 10, 44100);
 		audioSource.loop = true;

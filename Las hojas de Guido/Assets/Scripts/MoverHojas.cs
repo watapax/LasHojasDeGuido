@@ -4,9 +4,11 @@ using System.Collections;
 public class MoverHojas : MonoBehaviour {
 
 	Vector2 offset;
+	[HideInInspector] public Vector2 posOriginal;
 
 	void OnMouseDown()
 	{
+
 		GuidoComiendo.hoja = null;
 		offset = transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
 	}
@@ -23,5 +25,7 @@ public class MoverHojas : MonoBehaviour {
 		GetComponent<SpriteRenderer>().sortingOrder = 3;
 		GuidoComiendo.hoja = gameObject;
 	}
+
+
 
 }

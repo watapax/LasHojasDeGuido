@@ -27,7 +27,7 @@ public class GuidoComiendo : MonoBehaviour {
 		{
 			anim.SetTrigger("comer");
 			audioSource.PlayOneShot(comiendo);
-			hoja.SetActive(false);
+			hoja.transform.position = new Vector2(1000 , 1000); // mueve la hoja a la chucha para que no se vea en pantalla
 			hoja = null;
 		}
 	}
@@ -54,7 +54,7 @@ public class GuidoComiendo : MonoBehaviour {
 	public void EstaComiendo(int _comiendo)
 	{
 		estaComiendo = _comiendo > 0 ? true: false;
-		print ("esta comiendo: " + estaComiendo);
+
 	}
 
 
