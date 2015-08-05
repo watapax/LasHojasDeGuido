@@ -9,7 +9,7 @@ public class MoverConViento : MonoBehaviour {
 
 	void Awake()
 	{
-		randomSpeed = Random.Range(0.02f , 0.025f);
+		randomSpeed = Random.Range(0.05f , 0.035f);
 		foreach(Transform ta in transform)
 		{
 			t = ta;

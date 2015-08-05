@@ -5,13 +5,16 @@ public class RecojerHojas : MonoBehaviour {
 
 	public Transform[] hojas;
 	public Transform destello;
+	public AudioClip sonidoHoja;
 
 	Animator animGuido;
 	int hojaRecojida = 0;
 	Vector3 posOriginal;
+	AudioSource audioSource;
 
 	void Awake()
 	{
+		audioSource = GetComponent<AudioSource>();
 		posOriginal = transform.position;
 		animGuido = GetComponent<Animator>();
 		destello.position = hojas[0].position;
@@ -23,6 +26,7 @@ public class RecojerHojas : MonoBehaviour {
 
 		if(idHoja != hojaRecojida) return;
 		animGuido.SetTrigger("caminar");
+
 	}
 
 	public void RecojeHoja()
@@ -36,6 +40,7 @@ public class RecojerHojas : MonoBehaviour {
 			destello.position = hojas[hojaRecojida].position;
 		
 		hojas[hojaRecojida - 1].gameObject.SetActive(false);
+		audioSource.PlayOneShot(sonidoHoja);
 	}
 
 

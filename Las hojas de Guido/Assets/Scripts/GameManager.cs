@@ -38,12 +38,24 @@ public class GameManager : MonoBehaviour {
 		volver = _volver;
 		string trigger;
 
+
+
 		if(!_volver)
+		{
 			trigger =  escenas[sceneCount].GetComponent<Escena>().transicionSalida.ToString();
+			//Obtener la cancion de la escena
+			escenas[sceneCount + 1].GetComponent<Escena>().CambiarCancion();
+		}
+			
 		else
+		{
 			trigger =  escenas[sceneCount].GetComponent<Escena>().transicionVuelta.ToString();
+			escenas[sceneCount - 1].GetComponent<Escena>().CambiarCancion();
+		}
 
 		TransitionManager.instance.EjecutarTransicion(trigger);
+
+
 	}
 
 
@@ -69,6 +81,9 @@ public class GameManager : MonoBehaviour {
 		escenas[sceneCount].SetActive(true);
 		string trigger =  escenas[sceneCount].GetComponent<Escena>().transicionEntrada.ToString();
 		TransitionManager.instance.EjecutarTransicion(trigger);
+
+	
+
 		volver = false;
 
 	}
