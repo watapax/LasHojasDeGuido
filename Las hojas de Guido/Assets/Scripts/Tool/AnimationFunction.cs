@@ -7,6 +7,7 @@ using System.Collections;
 
 public class AnimationFunction : MonoBehaviour {
 
+	public Animator otroAnim;
 
 	AudioSource audioS;
 	Animator anim;
@@ -49,6 +50,12 @@ public class AnimationFunction : MonoBehaviour {
 
 	}
 
+
+	// REPRODUCE UNA ANIMACION DE OTRO ANIMATOR
+	public void PlayOtherAnimation(string triggerName)
+	{
+		otroAnim.SetTrigger(triggerName);
+	}
 
 
 	void OnDisable()
