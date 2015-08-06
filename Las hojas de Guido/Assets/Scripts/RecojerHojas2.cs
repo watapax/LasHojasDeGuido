@@ -47,5 +47,8 @@ public class RecojerHojas2 : MonoBehaviour {
 		hojas[1].position = posHoja1;
 		hojas[2].position = posHoja2;
 		destello.position = hojas[0].position;
+		count = 0;
 	}
+
+
 }

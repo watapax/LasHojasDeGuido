@@ -57,6 +57,7 @@ public class RecojerHojas : MonoBehaviour {
 
 	void OnEnable()
 	{
+		hojaRecojida = 0;
 		animGuido.SetTrigger("reset");
 	}
 

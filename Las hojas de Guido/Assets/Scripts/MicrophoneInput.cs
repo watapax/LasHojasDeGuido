@@ -20,7 +20,7 @@ public class MicrophoneInput : MonoBehaviour {
 
 	void OnEnable()
 	{
-		audioSource.clip = Microphone.Start(null, true, 10, 44100);
+		audioSource.clip = Microphone.Start(null, true, 20, 44100);
 		audioSource.loop = true;
 		audioSource.mute = true;
 		while(!(Microphone.GetPosition(null) > 0))
