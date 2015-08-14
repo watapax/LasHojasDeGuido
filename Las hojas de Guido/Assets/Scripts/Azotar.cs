@@ -34,7 +34,7 @@ public class Azotar : MonoBehaviour {
 		if(shaking && !isShaking)StartCoroutine(Shake ());
 
 
-		if(Input.GetKeyDown(KeyCode.L))StartCoroutine(Shake());
+
 
 	}
 

@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour {
 
 	void Awake()
 	{
-		AudioSettings.outputSampleRate = 44100;
+		//AudioSettings.outputSampleRate = 44100;
 		
 		// Singleton
 		if(instance == null) instance = this; else if(instance != this) Destroy(gameObject);

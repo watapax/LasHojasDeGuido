@@ -16,10 +16,18 @@ public class MicrophoneInput : MonoBehaviour {
 		if(instance == null) instance = this; else if(instance != this) Destroy(gameObject);
 
 		audioSource = GetComponent<AudioSource>();
+
+
+
+
 	}
+
+
 
 	void OnEnable()
 	{
+
+
 		audioSource.clip = Microphone.Start(null, true, 20, 44100);
 		audioSource.loop = true;
 		audioSource.mute = true;
