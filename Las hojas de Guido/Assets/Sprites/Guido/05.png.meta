@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1a006d96fb4bc45428fda3ba533ac24a
-timeCreated: 1435962637
+timeCreated: 1438977467
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -9,6 +9,13 @@ TextureImporter:
     21300004: 05-GuidoLagrima
     21300006: 05-GuidoEsperando
     21300008: 05-GuidoPena2
+    21300010: gotaLluvia1
+    21300012: gotaLluvia2
+    21300014: gotaLluvia3
+    21300016: gota1
+    21300018: gota2
+    21300020: gota3
+    21300022: gota4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -101,6 +108,76 @@ TextureImporter:
         y: 5
         width: 399
         height: 720
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gotaLluvia1
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 998
+        width: 104
+        height: 13
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gotaLluvia2
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 973
+        width: 97
+        height: 12
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gotaLluvia3
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 949
+        width: 106
+        height: 13
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gota1
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 991
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gota2
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 990
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gota3
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 986
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gota4
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 989
+        width: 23
+        height: 16
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
