@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: a609182fc352cc24590540c034f918de
+timeCreated: 1441232973
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: guidoElectrocutado
+    21300002: guido_Triste
+    21300004: guidoManosTristes
+    21300006: guidoColaTriste
+    21300008: GuidoTristeCabeza
+    21300010: burla_1
+    21300012: tortuguita
+    21300014: 06_0
+    21300016: burla_Grande1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: guidoElectrocutado
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 552
+        width: 590
+        height: 470
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guidoManosTristes
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 409
+        width: 76
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guidoColaTriste
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 193
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GuidoTristeCabeza
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 324
+        width: 239
+        height: 215
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: burla_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 592
+        width: 405
+        height: 427
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tortuguita
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 145
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 06_0
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 75
+        width: 236
+        height: 244
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: burla_Grande1
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 480
+        height: 582
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -26,6 +26,13 @@ public class TransitionManager : MonoBehaviour {
 
 	public void CambiarSigEscena(bool _volver)
 	{
+		// chequea primero si la escena tiene un evento que gatillar
+		// antes de seguir a la otra escena
+		if(!_volver && EventManager.eventManager.HasEvent())
+		{
+			// peo
+		}
+		else
 		GameManager.instance.EjecutarTransicionSalida(_volver);
 	}
 

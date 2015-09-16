@@ -46,10 +46,18 @@ public class Azotar : MonoBehaviour {
 	{
 
 		if(esperando.activeInHierarchy)
+		{
 			animEsperando.SetTrigger(triggerName);
+			Invoke("ActivarLluvia" , 1.5f);
+		}
+		else if(tapandose.activeInHierarchy)
+		{
+			Invoke("DesactivarLluvia" , 1);
+		}
+			
 
 
-		StartCoroutine(ToggleLluvia());
+		//StartCoroutine(ToggleLluvia());
 		while(shaking)
 		{
 			isShaking = true;
@@ -59,26 +67,53 @@ public class Azotar : MonoBehaviour {
 		isShaking = false;
 	}
 
-
-
-
-	IEnumerator ToggleLluvia()
+	void ActivarLluvia()
 	{
-		yield return new WaitForSeconds(2);
-		efectoLluvia.estaLloviendo = !efectoLluvia.estaLloviendo;
-		estaLloviendo = !estaLloviendo;
+		esperando.SetActive(false);
+		tapandose.SetActive(true);
+		sonidoLluvia.Loopear();
+		efectoLluvia.estaLloviendo = true;
+		estaLloviendo = true;
+	}
 
-		if(estaLloviendo)
-			sonidoLluvia.Loopear();
-		else
-			sonidoLluvia.FadingOut();
+	void DesactivarLluvia()
+	{
+		esperando.SetActive(true);
+		tapandose.SetActive(false);
+		sonidoLluvia.FadingOut();
+		efectoLluvia.estaLloviendo = false;
+		estaLloviendo = false;
+		animArbol.SetTrigger("paroLluvia");
+	}
 
 
-		yield return new WaitForSeconds(1);
-		if(!estaLloviendo)animArbol.SetTrigger("paroLluvia");  
-		esperando.SetActive(!estaLloviendo);
-		tapandose.SetActive(estaLloviendo);
 
+//	IEnumerator ToggleLluvia()
+//	{
+//		yield return new WaitForSeconds(2);
+//		efectoLluvia.estaLloviendo = !efectoLluvia.estaLloviendo;
+//		estaLloviendo = !estaLloviendo;
+//
+//		if(estaLloviendo)
+//			sonidoLluvia.Loopear();
+//		else
+//			sonidoLluvia.FadingOut();
+//
+//
+//		yield return new WaitForSeconds(1);
+//		if(!estaLloviendo)animArbol.SetTrigger("paroLluvia");  
+//		esperando.SetActive(!estaLloviendo);
+//		tapandose.SetActive(estaLloviendo);
+//
+//	}
+
+	void OnDisable()
+	{
+		esperando.SetActive(true);
+		tapandose.SetActive(false);
+		shaking = false;
+		isShaking = false;
+		StopAllCoroutines();
 	}
 
 

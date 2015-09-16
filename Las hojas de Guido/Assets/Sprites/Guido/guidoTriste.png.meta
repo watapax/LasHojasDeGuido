@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: fd91eb5b4d2abd24cada39501b92a5e0
+timeCreated: 1442024974
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: guidoTriste
+    21300002: guidoTriste_3
+    21300004: guidoPata1
+    21300006: guidoCola
+    21300008: guidoPata2
+    21300010: guidoDurmiendo
+    21300012: Ojo
+    21300014: ojoParpado
+    21300016: blanco
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: guidoTriste
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 453
+        height: 720
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guidoTriste_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 732
+        width: 395
+        height: 292
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guidoPata1
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 705
+        width: 110
+        height: 319
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guidoCola
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 395
+        width: 270
+        height: 265
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guidoPata2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 366
+        width: 111
+        height: 323
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guidoDurmiendo
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 57
+        width: 788
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ojo
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 150
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ojoParpado
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 28
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blanco
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 24
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

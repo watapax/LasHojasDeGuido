@@ -14,7 +14,7 @@ public class EfectoLluvia : MonoBehaviour {
 	public SpriteRenderer fondo;
 
 	GameObject[] lluvia;
-	bool lloviendo;
+	public static bool lloviendo;
 	Color transparente , colorActual;
 
 
@@ -91,6 +91,13 @@ public class EfectoLluvia : MonoBehaviour {
 		}
 
 		lloviendo = false;
+	}
+
+	void OnDisable()
+	{
+		estaLloviendo = false;
+		lloviendo = false;
+		StopAllCoroutines();
 	}
 
 
